@@ -38,8 +38,8 @@ class Suumo {
     old: "#contents > div.detail_property > div.detail_property-body > div.detailinfo > table > tbody > tr > td:nth-child(4) > div > div:nth-child(2)",
     feature: "#bkdt-option > div > ul > li",
     stations: "#contents > div.detail_property > div.detail_property-body > div.l-detailnote > div > div.detailnote-value",
-    high: "//*[@id=\"contents\"]/div[5]/table/tbody/tr[2]/td[1]",
-    startFee: "//*[@id=\"contents\"]/div[5]/table/tbody/tr[9]/td/ul/li",
+    // high: "//*[@id=\"contents\"]/div[5]/table/tbody/tr[2]/td[1]",
+    // startFee: "//*[@id=\"contents\"]/div[5]/table/tbody/tr[9]/td/ul/li",
   };
 
   constructor(page: Page, url: string) {
